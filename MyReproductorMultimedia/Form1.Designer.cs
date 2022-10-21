@@ -40,13 +40,13 @@
             this.IbListaArchivos.FormattingEnabled = true;
             this.IbListaArchivos.Location = new System.Drawing.Point(457, 12);
             this.IbListaArchivos.Name = "IbListaArchivos";
-            this.IbListaArchivos.Size = new System.Drawing.Size(331, 355);
+            this.IbListaArchivos.Size = new System.Drawing.Size(331, 407);
             this.IbListaArchivos.TabIndex = 1;
             this.IbListaArchivos.SelectedIndexChanged += new System.EventHandler(this.IbListaArchivos_SelectedIndexChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(690, 384);
+            this.button1.Location = new System.Drawing.Point(690, 425);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 37);
             this.button1.TabIndex = 2;
