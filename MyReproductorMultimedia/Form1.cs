@@ -31,8 +31,8 @@ namespace MyReproductorMultimedia
         private void button1_Click(object sender, EventArgs e)
         {
             using(OpenFileDialog ofd = new OpenFileDialog()
-            {Multiselect = true, ValidateNames = true, 
-                Filter="WMV|*.wmv|WAV|*.wav|MP3|*|.mp3|MP4|*.mp4|MKV|*.mkv"
+            { Multiselect = true, ValidateNames = true, 
+                Filter="WMV|*.wmv|WAV|*.wav|MP3|*|.mp3|MP4|*.mp4|MKV|*.mkv|"
             })
             {
                 if (ofd.ShowDialog() == DialogResult.OK)
